@@ -1,0 +1,274 @@
+* {
+  font-family: Helvetica Neue,sans-serif,Arial";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* body {
+  margin: auto;
+} */
+
+/* FIRST CARD */
+.hl {
+  width: 1000px;
+  height: 350px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardImgContainer {
+  width: 500px;
+  height: auto;
+}
+
+.card-img {
+  height: 100%;
+  background-image: url(/images/cards1.jpeg);
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  border-radius: 3%;
+}
+
+.card-img a {
+  background-color: rgba(52, 73, 94, 0.75);
+  border-radius: 3%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.card-img:hover {
+  background-size: 120%;
+}
+
+.card-img:hover a {
+  opacity: 1;
+}
+
+/* Эхний тексттэй хэсэг */
+.hlLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgb(240, 234, 234), white);
+  padding: 5% 3% 0 3%;
+  border-radius: 2%;
+}
+
+button {
+  background-image: linear-gradient(to right, red, orange);
+  color: white;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  transition: padding 0.5s ease-in-out;
+}
+
+.hlLeft button:hover {
+  padding: 10px 30px;
+  transition: padding 0.5s ease-in-out;
+}
+
+.hlLeft p {
+  color: grey;
+}
+
+.hlLeft h2,
+.hlLeft p {
+  cursor: pointer;
+}
+
+.hlLeft h2:hover {
+  color: rgb(88, 86, 86);
+  transition: all 0.3s ease-in-out;
+}
+
+.share {
+  border-radius: 100px;
+  gap: 10px;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 0 5px 0 0;
+  transition: all 0.5s ease-in-out;
+}
+.share i {
+  padding-left: 20px;
+}
+
+.share span{
+  padding-right: 20px;
+}
+
+.share i {
+    transition: all 0.5s ease-in-out;
+}
+
+.share,
+.shareComment {
+  display: flex;
+  color: rgb(136, 130, 130);
+  cursor: pointer;
+}
+.shareComment {
+  padding-top: 8%;
+  gap: 20px;
+}
+
+.comment {
+  height: 30px;
+  padding-top: 10px;
+}
+
+.share:hover {
+  padding: 0 15px;
+  transition: all 0.5s ease-in-out;
+}
+.share:hover i {
+  rotate: 20deg;
+  transition: all 0.5s ease-in-out;
+}
+
+/* 2nd card */
+
+.hlRight {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px auto;
+  width: 300px;
+  height: 400px;
+}
+
+.hlRightImg {
+  width: 300px;
+  height: 200px;
+  background-image: url(/images/hlRightImg.jpeg);
+  background-size: 100%;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: center;
+  background-color: thistle;
+  transition: all 0.5s;
+  border-radius: 3%;
+}
+.hlRightImg a {
+  background-color: rgba(52, 73, 94, 0.75);
+  border-radius: 3%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.hlRightImg:hover a {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.hlRightImg:hover {
+  background-size: 120%;
+}
+
+.hlRightText a:hover {
+  color: rgb(93, 91, 91);
+  transition: all 0.3s ease-in-out;
+}
+
+.hlRightShare {
+  display:flex;
+  gap: 30px;
+}
+
+.share-card-share {
+  display: flex;
+}
+
+.shareIconNormal {
+  display: flex;
+  gap: 5px;
+}
+
+.shareIconNormal a {
+  display: flex;
+  gap: 10px;
+  color: rgb(136, 130, 130);
+}
+
+/* Story */
+.story-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+}
+
+.story-img {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  background-image: url(/images/story-img.jpeg);
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.story-img:hover {
+  background-size: 120%;
+}
+.story-img:hover .story-text{
+
+}
+.story-logo img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  display: flex;
+}
+
+.story-text {
+  color: white;
+  position: relative;
+  top: 210px;
+  padding: 0 5px;
+}
+
+.story-img a {
+  background-color: rgba(52, 73, 94, 0.75);
+  border-radius: 3%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none; }
+
+.story-seen-logo {
+  
+}
+.story-img:hover {
+}
