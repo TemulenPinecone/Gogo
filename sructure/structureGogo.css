@@ -580,7 +580,7 @@ i {
   transition: all 0.5s ease-in-out;
 }
 
-.hotNews1 > a {
+.hotNews1 a {
   height: 200px;
   width: auto;
   background-color: rgba(52, 73, 94, 0.75);
@@ -596,11 +596,6 @@ i {
 
 .hotNews1Img:hover a {
   opacity: 1;
-  transition: all 0.5s ease-in-out;
-}
-
-.hotNews1Img:hover {
-  background-size: 130%;
   transition: all 0.5s ease-in-out;
 }
 
